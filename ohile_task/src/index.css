@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f0f0f0;
+}
+
+.start-rec {
+  cursor: pointer;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.play-rec {
+  cursor: pointer;
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.solid-rec {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 20px solid red;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.stop-rec {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.triangle {
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.sound-play {
+  display: none;
+}
+
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recordings-list ul {
+  list-style: none;
+}
+
+.recordings-list {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: aliceblue;
+  padding: 10px;
+  box-shadow: aquamarine;
+  border: 1px solid grey;
+  width: 50%;
+  border-radius: 20px;
+  margin: auto;
+  height: auto;
+}
+
+.play-icon {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.close-icon {
+  width: 20px;
+  height: 20px;
+}
